@@ -1,0 +1,16 @@
+@import "tailwindcss";
+body{
+    background: linear-gradient(135deg, purple 20%, orange 80%);
+}
+@layer components{
+    .back-ground{
+        background:rgba(211, 211, 211, 0.3);
+    }
+}
+.li:hover{
+    background:rgba(7, 7, 7,0.1);
+    border-radius: 5px;
+}
+.showhidden{
+    transform: translateY(-250%);
+}
